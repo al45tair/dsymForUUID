@@ -1,6 +1,6 @@
-The `LLDB debugger`_ has `built-in support for symbolication`_, and in particular
-on Mac OS X, for symbolicating OS X and iOS crash logs.  Unfortunately, for
-some reason best known to Apple, in order to function, the
+The `LLDB debugger`_ has `built-in support for symbolication`_, and in
+particular on Mac OS X, for symbolicating OS X and iOS crash logs.
+Unfortunately, for some reason best known to Apple, in order to function, the
 ``lldb.macosx.crashlog`` module requires an external script to locate ``dSYM``
 files from the UUIDs listed in the crash log.  Quite why there couldn’t be a
 default implementation of this is beyond me.
