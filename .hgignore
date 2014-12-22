@@ -1,0 +1,9 @@
+syntax: glob
+*~
+*.pyc
+.DS_Store
+
+syntax:regexp
+^.*\.egg-info/
+^dist/
+^build/
